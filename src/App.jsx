@@ -1,6 +1,7 @@
 import Chart from "./Chart/Chart"
 import PriceOptions from "./Navbar/Link/PriceOptions/PriceOptions"
 import Navbar from "./Navbar/Navbar"
+import Phones from "./Phones/Phones"
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
       <PriceOptions></PriceOptions>
       {/* chart */}
       <Chart></Chart>
+      {/* axios */}
+      <Phones></Phones>
     
     </div>
   )
